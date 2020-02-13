@@ -8,6 +8,8 @@ Call getById(businessID) with business id and you will receive:
 * latest address
 * line of business
 
+Possible errors and issues are logged in to console. The module uses open API by The Finnish Patent and Registration Office to receive the data (https://avoindata.prh.fi/ytj_en.html​). 
+
 Example:
 const businessInfo = require('business-info');
 async function makkara() {
